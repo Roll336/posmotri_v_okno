@@ -63,6 +63,7 @@ ol {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -201,10 +202,10 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   font-weight: 700;
   font-style: normal;
   line-height: calc(21.6 / 18 * 100%);
+  color: #fff;
   background-color: transparent;
   text-align: center;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid currentColor;
   block-size: 34px;
   cursor: pointer;
 }

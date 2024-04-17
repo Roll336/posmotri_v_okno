@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -39,8 +42,8 @@ ol {
 
 .content {
   display: flex;
+  align-items: end;
   inline-size: 1140px;
-  margin: 133px 30px;
 }
 
 .result {
@@ -245,7 +248,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   position: relative;
   block-size: 300px;
   overflow-y: auto;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 
 /*.content__list::-webkit-scrollbar {

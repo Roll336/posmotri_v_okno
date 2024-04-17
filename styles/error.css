@@ -8,12 +8,13 @@
 }
 
 .error__title {
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: calc(33 / 27 * 100%);
   text-align: center;
   text-transform: uppercase;
+  color: #fff;
+  letter-spacing: -2px;
   padding-block-start: 5px;
 }
